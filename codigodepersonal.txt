@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="estilo2.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>♡ Mi Página Personal ♡</h1>
+        <p>Un poquito sobre mí, mi vida y las personas que quiero</p>
+    </header>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#escuela">Mi escuela</a>
+        <a href="#actividades">Mis actividades</a>
+        <a href="#amigos">Mis amigos</a>
+        <a href="#grupo">Mi grupo</a>
+        <a href="#familia">Mi familia</a>
+    </nav>
+
+    <main>
+
+        <!-- PRESENTACIÓN -->
+        <section id="inicio" class="presentacion">
+            <h2>¡Bienvenidos a mi página! 💜</h2>
+
+            <!-- CAMBIA mi-foto.jpg POR EL NOMBRE DE TU FOTO -->
+            <img src="mi-foto.jpg"
+                 alt="Mi foto personal"
+                 class="foto-perfil">
+
+            <p>
+                Hola, soy Gisell Guadalupe Corral Saldaña.
+                Esta es mi página personal, un lugar donde comparto
+                un poco de mi personalidad, mis gustos y las personas
+                importantes de mi vida.
+            </p>
+
+            <p>♡ Gracias por visitar mi página ♡</p>
+        </section>
+
+        <!-- MI ESCUELA -->
+        <section id="escuela" class="tarjeta">
+            <h2>🎓 ¿Dónde estudio?</h2>
+            <h3>CBTis No. 224</h3>
+
+            <!-- FOTO DE TU ESCUELA -->
+            <img src="mi-escuela.jpg"
+                 alt="Mi escuela"
+                 class="foto-grande">
+
+            <p>
+                Estudio en el Centro de Bachillerato Tecnológico
+                industrial y de servicios No. 224.
+                Aquí aprendo cosas nuevas, desarrollo mis habilidades
+                y me preparo para mi futuro.
+            </p>
+
+            <p><strong>Mi escuela:</strong> CBTis 224</p>
+        </section>
+
+        <!-- MIS ACTIVIDADES -->
+        <section id="actividades" class="tarjeta">
+            <h2>🎧 Mis actividades extraescolares</h2>
+
+            <p>
+                En mi tiempo libre me gusta realizar actividades
+                que me divierten y me ayudan a relajarme.
+            </p>
+
+            <ul>
+                <li>Escuchar música 🎵</li>
+                <li>Usar las redes sociales 📱</li>
+                <li>Jugar videojuegos 🎮</li>
+                <li>Ver películas y series 🍿</li>
+                <li>Pasar tiempo con mis amigos 💗</li>
+            </ul>
+
+            <p>
+                <em>
+                    Estos son algunos de mis pasatiempos favoritos.
+                </em>
+            </p>
+        </section>
+
+        <!-- MIS AMIGOS -->
+        <section id="amigos" class="tarjeta">
+            <h2>👭 Mis amigos</h2>
+
+            <!-- FOTO CON TUS AMIGOS -->
+            <img src="mis-amigos.jpg"
+                 alt="Mis amigos y yo"
+                 class="foto-grande">
+
+            <p>
+                Mis amigos son personas especiales con quienes
+                comparto risas, momentos divertidos y recuerdos.
+                Valoro su amistad y los momentos que pasamos juntos.
+            </p>
+
+            <div class="detalle">
+                <h3>♡ Mis mejores recuerdos ♡</h3>
+
+                <p>
+                    Aquí puedo compartir anécdotas divertidas,
+                    momentos especiales y recuerdos inolvidables
+                    con mis amigos.
+                </p>
+            </div>
+        </section>
+
+        <!-- MI GRUPO -->
+<section id="grupo" class="tarjeta">
+    <h2>🎀 Mi grupo</h2>
+
+    <img src="grupo.png"
+         alt="Mi grupo escolar"
+         style="display: block; width: 100%; max-width: 600px; height: auto; margin: 20px auto;">
+
+    <p>
+        Mi grupo forma parte de mi vida escolar.
+        Con mis compañeros comparto clases, trabajos,
+        actividades y experiencias que hacen especial
+        esta etapa de mi vida.
+    </p>
+
+    <p><strong>Mi grupo:</strong> Escribe aquí tu grupo.</p>
+</section>
+
+        <!-- MI FAMILIA -->
+        <section id="familia" class="tarjeta">
+            <h2>🏡 Mi familia</h2>
+
+            <!-- FOTO DE TU FAMILIA -->
+            <img src="mi-familia.jpg"
+                 alt="Mi familia"
+                 class="foto-grande">
+
+            <p>
+                Mi familia es una parte muy importante de mi vida.
+                Me brinda cariño, apoyo y motivación para seguir
+                adelante y cumplir mis metas.
+            </p>
+
+            <p>
+                Cada integrante es especial para mí y agradezco
+                los momentos que compartimos juntos.
+            </p>
+
+            <div class="detalle">
+                <p>♡ Mi familia es uno de mis tesoros más grandes. ♡</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>Mi página personal 💜</p>
+        <p>Hecha con cariño usando HTML y CSS</p>
+    </footer>
